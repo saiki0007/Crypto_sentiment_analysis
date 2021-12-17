@@ -1,0 +1,6 @@
+json
+pandas
+tqdm
+langdetect
+textblob
+plotly
