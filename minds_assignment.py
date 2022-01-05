@@ -183,7 +183,6 @@ if __name__ == "__main__":
 
     df_messages = pd.json_normalize(data, record_path=['messages'])  # save the messages in a dataframe
 
-    # analyzer = SentimentAnalysis()  # create object for the class
     modified_data = prepare_data(df_messages)  # Preprocess message data
     analyzed_data = analyze_data(modified_data)  # Perform sentiment analysis
     plot_data(analyzed_data)  # Plot the graphs
