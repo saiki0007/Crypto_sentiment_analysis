@@ -4,3 +4,4 @@ tqdm
 langdetect
 textblob
 plotly
+kaleido
